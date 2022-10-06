@@ -1,22 +1,22 @@
-// Closures
-
 /*
+  Closures
 
-Key Takeaways
-  1. Closures : lexical scope + backpack
-  2. Rest Operator + Spread Operator
-  3. setTimeout(cbFunc, delayInMs, ...cbFuncArgs)
-  4. for/in vs for/of : for/in iterating over keys of obj, for/of iterating over elems of iterable (array, str, etc.)
-    4a. don't forget to use let in for/in for/of
-    4b. Object.keys().forEach() vs for/in
-  4. new Date().toDateString()
-  5. Syntax
-    5a. can return function without naming it
-    5b. simple arrow functions without parenthesis/brackets (ex. n => n * 2)
-  6. reduce(callbackFunc(accum, currVal), initAccum)
-    6b. alt: forEach with update to str1 each time (ex. str1 = str1.replace(key, pairs[key]))
-  7. str.replace(pattern, replacement)
-    7a. pattern can be string or RegExp ; replacement can be string or function who's return val is replacement
+  Key Takeaways:
+  
+    1. Closures : lexical scope + backpack
+    2. Rest Operator + Spread Operator
+    3. setTimeout(cbFunc, delayInMs, ...cbFuncArgs)
+    4. for/in vs for/of : for/in iterating over keys of obj, for/of iterating over elems of iterable (array, str, etc.)
+      4a. don't forget to use let in for/in for/of
+      4b. Object.keys().forEach() vs for/in
+    4. new Date().toDateString()
+    5. Syntax
+      5a. can return function without naming it
+      5b. simple arrow functions without parenthesis/brackets (ex. n => n * 2)
+    6. reduce(callbackFunc(accum, currVal), initAccum)
+      6b. alt: forEach with update to str1 each time (ex. str1 = str1.replace(key, pairs[key]))
+    7. str.replace(pattern, replacement)
+      7a. pattern can be string or RegExp ; replacement can be string or function who's return val is replacement
 */
 
 // Challenge 1: createFunction
